@@ -2,6 +2,9 @@
     font-family: tanahFont;
     src: url(stamsefaradclm-webfont.woff);
 }
+body{
+    overflow-x: hidden;
+}
 .tanah-brown{
     color: #cc7351;
 }
@@ -17,4 +20,11 @@ e08f62
 }
 .tanahFont{
     font-family: tanahFont
+}
+#marquee{
+    animation: marquee 20s linear 0s infinite;
+}
+@keyframes marquee {
+    0% { margin-left: 110%;}
+    100% { margin-left: -10%;}
 }
