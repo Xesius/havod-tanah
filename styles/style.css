@@ -1,6 +1,20 @@
+@font-face{
+    font-family: tanahFont;
+    src: url(stamsefaradclm-webfont.woff);
+}
 .tanah-brown{
     color: #cc7351;
 }
 .bg-tanah-brown{
     background-color: #cc7351;
+}
+e08f62
+.tanah-light-brown{
+    color: #e08f62;
+}
+.bg-tanah-light-brown{
+    background-color: #e08f62;
+}
+.tanahFont{
+    font-family: tanahFont
 }
